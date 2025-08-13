@@ -1,0 +1,119 @@
+/* Tema Claro (Padrão) */
+.light-theme {
+    --bg-color: #f8f9fa;
+    --text-color: #212529;
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --success-color: #198754;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #0dcaf0;
+    --card-bg: #ffffff;
+    --card-border: rgba(0, 0, 0, 0.125);
+    --input-bg: #ffffff;
+    --input-border: #ced4da;
+}
+
+/* Tema Escuro */
+.dark-theme {
+    --bg-color: #212529;
+    --text-color: #f8f9fa;
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --success-color: #198754;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #0dcaf0;
+    --card-bg: #2c3034;
+    --card-border: #373b3e;
+    --input-bg: #2c3034;
+    --input-border: #495057;
+}
+
+/* Tema Verde */
+.green-theme {
+    --bg-color: #e8f5e9;
+    --text-color: #1b5e20;
+    --primary-color: #2e7d32;
+    --secondary-color: #4c8c4a;
+    --success-color: #388e3c;
+    --danger-color: #c62828;
+    --warning-color: #f9a825;
+    --info-color: #00838f;
+    --card-bg: #ffffff;
+    --card-border: #c8e6c9;
+    --input-bg: #ffffff;
+    --input-border: #a5d6a7;
+}
+
+/* Tema Azul */
+.blue-theme {
+    --bg-color: #e3f2fd;
+    --text-color: #0d47a1;
+    --primary-color: #1976d2;
+    --secondary-color: #2196f3;
+    --success-color: #388e3c;
+    --danger-color: #d32f2f;
+    --warning-color: #ffa000;
+    --info-color: #0288d1;
+    --card-bg: #ffffff;
+    --card-border: #bbdefb;
+    --input-bg: #ffffff;
+    --input-border: #90caf9;
+}
+
+/* Aplicação das variáveis de tema */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-color: var(--card-border);
+}
+
+.form-control, .form-select {
+    background-color: var(--input-bg);
+    border-color: var(--input-border);
+    color: var(--text-color);
+}
+
+.nav-btn.active {
+    color: var(--primary-color) !important;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.text-danger {
+    color: var(--danger-color) !important;
+}
+
+.text-success {
+    color: var(--success-color) !important;
+}
+
+.badge.bg-primary {
+    background-color: var(--primary-color) !important;
+}
