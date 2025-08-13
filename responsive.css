@@ -1,0 +1,55 @@
+/* Telas pequenas (celulares) */
+@media (max-width: 576px) {
+    .app-header h1 {
+        font-size: 1.1rem;
+    }
+    
+    .nav-btn {
+        padding: 0.25rem;
+    }
+    
+    .nav-btn small {
+        font-size: 0.6rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+}
+
+/* Telas médias (tablets) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .app-container {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    
+    .bottom-nav {
+        padding: 0.5rem 0;
+    }
+    
+    .nav-btn {
+        font-size: 1.1rem;
+    }
+}
+
+/* Telas grandes (desktops) */
+@media (min-width: 993px) {
+    .app-container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    
+    .bottom-nav {
+        position: static;
+        margin-top: auto;
+    }
+    
+    .app-main {
+        margin-bottom: 0;
+    }
+    
+    .nav-btn {
+        font-size: 1.2rem;
+    }
+}
